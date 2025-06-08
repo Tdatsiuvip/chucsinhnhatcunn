@@ -605,3 +605,94 @@ body {
 #mewmew.animationOp{
     animation: opacityHeart 1s 1s forwards;
 }
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+  .content .left, .content .right {
+    width: 100%;
+  }
+
+  .content .right .image {
+    width: 80vw;
+    height: 80vw;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .date__of__birth {
+    width: 90% !important;
+    height: auto !important;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .name {
+    position: relative;
+    bottom: unset;
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+
+  #btn__letter {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  .text__cricle {
+    width: 80px;
+    height: 80px;
+    font-size: 0.6rem;
+  }
+
+  .box__letter .letter__border {
+    width: 90vw;
+    height: 90vh;
+  }
+
+  .letter__border .letter .content__letter {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .content__letter .left,
+  .content__letter .right {
+    width: 100%;
+    padding: 10px;
+    border: none;
+  }
+
+  .content__letter .right .text__letter {
+    font-size: 1.1rem;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .content__letter .right .love__img {
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .cricle {
+    right: 20px;
+    top: 10px;
+  }
+
+  .decorate_flower--one,
+  .decorate_flower--two,
+  .decorate_flower--three,
+  .smiley__icon {
+    display: none;
+  }
+}
